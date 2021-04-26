@@ -10,6 +10,7 @@ public class PickableItem : MonoBehaviour
     private new Rigidbody rigidbody;
     private AudioSource audioSource;
     private float angularDrag = 0;
+    private bool dropped = false;
 
     void Awake()
     {
@@ -21,6 +22,7 @@ public class PickableItem : MonoBehaviour
         gameObject.layer = LayerMask.NameToLayer("Selectable");
         audioSource.minDistance = 0.1f;
         audioSource.maxDistance = 2f;
+        rigidbody.collisionDetectionMode = CollisionDetectionMode.Continuous;
     }
 
     void Start()
@@ -39,11 +41,13 @@ public class PickableItem : MonoBehaviour
         rigidbody.angularDrag = angularDrag;
         rigidbody.velocity = Vector3.zero;
         rigidbody.isKinematic = false;
+        dropped = true;
     }
 
     void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag == "Untagged")
+        if (dropped && collision.gameObject.tag == "Untagged")
             audioSource.PlayOneShot(AudioList.Get("item_dropped"));
+        dropped = false;
     }
 }

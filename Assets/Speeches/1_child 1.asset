@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 29d209dd613b1a54a9901ed1c77f2067, type: 3}
-  m_Name: 1_child
+  m_Name: 1_child 1
   m_EditorClassIdentifier: 
   SubtitlesEng: Who's crying here? Probably little Bobby... How would I open this
     door?

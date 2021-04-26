@@ -9,6 +9,9 @@ public class FirstPersonLook : MonoBehaviour
     public float sensitivity = 1;
     public float smoothing = 2;
 
+    void Start(){
+        currentMouseLook.x = character.localEulerAngles.y;
+    }
 
     void Reset()
     {

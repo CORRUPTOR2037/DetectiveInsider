@@ -18,8 +18,6 @@ public class Controller : MonoBehaviour
     public Animator eyesAnimator;
 
 
-    public AudioClip startFix, hitSound;
-
     InputButton useButton, menuButton;
 
     void Start() {

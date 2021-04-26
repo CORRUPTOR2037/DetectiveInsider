@@ -585,12 +585,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -705,26 +705,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1106793737665192854, guid: fa3dead214a93e840bc698228dc5f319, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 335.3661
-      objectReference: {fileID: 0}
-    - target: {fileID: 1106793737665192854, guid: fa3dead214a93e840bc698228dc5f319, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -239.58301
-      objectReference: {fileID: 0}
-    - target: {fileID: 1106793737665192854, guid: fa3dead214a93e840bc698228dc5f319, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -622.36
-      objectReference: {fileID: 0}
-    - target: {fileID: 1237093075635218853, guid: fa3dead214a93e840bc698228dc5f319, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -117
-      objectReference: {fileID: 0}
-    - target: {fileID: 1237093075635218853, guid: fa3dead214a93e840bc698228dc5f319, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 116
-      objectReference: {fileID: 0}
     - target: {fileID: 3256267715614070008, guid: fa3dead214a93e840bc698228dc5f319, type: 3}
       propertyPath: m_Name
       value: MenuCanvas
@@ -812,58 +792,6 @@ PrefabInstance:
     - target: {fileID: 3256267715614070012, guid: fa3dead214a93e840bc698228dc5f319, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3256267716400405424, guid: fa3dead214a93e840bc698228dc5f319, type: 3}
-      propertyPath: m_FontData.m_MaxSize
-      value: 81
-      objectReference: {fileID: 0}
-    - target: {fileID: 3256267716400405424, guid: fa3dead214a93e840bc698228dc5f319, type: 3}
-      propertyPath: m_FontData.m_FontSize
-      value: 63
-      objectReference: {fileID: 0}
-    - target: {fileID: 3256267716400405426, guid: fa3dead214a93e840bc698228dc5f319, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 409
-      objectReference: {fileID: 0}
-    - target: {fileID: 3256267717077212600, guid: fa3dead214a93e840bc698228dc5f319, type: 3}
-      propertyPath: m_FontData.m_MaxSize
-      value: 81
-      objectReference: {fileID: 0}
-    - target: {fileID: 3256267717077212600, guid: fa3dead214a93e840bc698228dc5f319, type: 3}
-      propertyPath: m_FontData.m_FontSize
-      value: 63
-      objectReference: {fileID: 0}
-    - target: {fileID: 3256267717077212606, guid: fa3dead214a93e840bc698228dc5f319, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 409
-      objectReference: {fileID: 0}
-    - target: {fileID: 3256267717172165601, guid: fa3dead214a93e840bc698228dc5f319, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 409
-      objectReference: {fileID: 0}
-    - target: {fileID: 3256267717172165606, guid: fa3dead214a93e840bc698228dc5f319, type: 3}
-      propertyPath: m_FontData.m_MaxSize
-      value: 81
-      objectReference: {fileID: 0}
-    - target: {fileID: 3256267717172165606, guid: fa3dead214a93e840bc698228dc5f319, type: 3}
-      propertyPath: m_FontData.m_FontSize
-      value: 63
-      objectReference: {fileID: 0}
-    - target: {fileID: 4694495706022382809, guid: fa3dead214a93e840bc698228dc5f319, type: 3}
-      propertyPath: m_FontData.m_FontSize
-      value: 36
-      objectReference: {fileID: 0}
-    - target: {fileID: 4694495706022382809, guid: fa3dead214a93e840bc698228dc5f319, type: 3}
-      propertyPath: m_FontData.m_Alignment
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 6553634933835647533, guid: fa3dead214a93e840bc698228dc5f319, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -228
-      objectReference: {fileID: 0}
-    - target: {fileID: 6553634933835647533, guid: fa3dead214a93e840bc698228dc5f319, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 116
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa3dead214a93e840bc698228dc5f319, type: 3}

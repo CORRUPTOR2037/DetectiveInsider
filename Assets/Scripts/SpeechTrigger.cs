@@ -2,17 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DialogueTrigger : MonoBehaviour
+[RequireComponent(typeof(Collider))]
+public class SpeechTrigger : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public AudioSource source;
+    public Speech speech;
 
-    // Update is called once per frame
-    void Update()
+    void OnTriggerEnter()
     {
-        
+        Debug.Log(this);
+        SpeechPlayer.Instance.Play(speech, source);
     }
 }

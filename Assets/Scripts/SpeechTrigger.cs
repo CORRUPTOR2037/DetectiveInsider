@@ -7,10 +7,16 @@ public class SpeechTrigger : MonoBehaviour
 {
     public AudioSource source;
     public Speech speech;
+    public bool OneTime = true;
+    private bool activated = false;
 
-    void OnTriggerEnter()
-    {
-        Debug.Log(this);
-        SpeechPlayer.Instance.Play(speech, source);
+    void OnTriggerEnter(Collider collider)
+    {   
+        if (speech == null) return;
+        if (OneTime && activated) return;
+        if (collider.gameObject.tag == "Player"){
+            SpeechPlayer.Instance.Play(speech, source);
+            activated = true;
+        }
     }
 }

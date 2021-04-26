@@ -16,7 +16,6 @@ public class SpeechPlayer : MonoBehaviour
     private AudioSource currentSource;
 
     public void Play(Speech speech, AudioSource source){
-        Debug.Log(speech);
         currentSource = source;
         if (source != null && speech.Sound != null)
             source.PlayOneShot(speech.Sound);

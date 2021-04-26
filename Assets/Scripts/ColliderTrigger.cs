@@ -7,9 +7,10 @@ public class ColliderTrigger : MonoBehaviour
 {
     public ItemInteractionTarget.Interaction interaction;
 
-    void OnTriggerEnter()
+    void OnTriggerEnter(Collider collider)
     {
-        interaction?.OnActivated();
+        if (collider.gameObject.tag == "Player")
+            interaction?.OnActivated();
     }
 
 }

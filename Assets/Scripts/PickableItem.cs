@@ -21,7 +21,7 @@ public class PickableItem : MonoBehaviour
         tag = "Pickable";
         gameObject.layer = LayerMask.NameToLayer("Selectable");
         audioSource.minDistance = 0.1f;
-        audioSource.maxDistance = 2f;
+        audioSource.maxDistance = 3f;
         rigidbody.collisionDetectionMode = CollisionDetectionMode.Continuous;
     }
 

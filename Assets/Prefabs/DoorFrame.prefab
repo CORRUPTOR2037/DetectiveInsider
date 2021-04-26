@@ -59,6 +59,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   source: {fileID: 7084765989269340278}
   speech: {fileID: 0}
+  door: {fileID: 4445230820549391008}
+  OneTime: 1
 --- !u!1 &5837102221292294698
 GameObject:
   m_ObjectHideFlags: 0

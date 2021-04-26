@@ -487,6 +487,7 @@ GameObject:
   - component: {fileID: 1357381449}
   - component: {fileID: 1357381448}
   - component: {fileID: 1357381451}
+  - component: {fileID: 1357381452}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -563,6 +564,19 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 01710b6b3d485b94ab280715cd93e056, type: 3}
   - ID: item_dropped
     clip: {fileID: 8300000, guid: 47edfe64ecb85ff45b847cb5be98fa2f, type: 3}
+--- !u!114 &1357381452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1357381447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f2a1a7c84c3dd54eb5fe5d27fe3ce5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subtitlesText: {fileID: 1551900090}
 --- !u!1 &1551900088
 GameObject:
   m_ObjectHideFlags: 0
@@ -1157,18 +1171,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1577309524511332114, guid: 9b0dbf2b5f6cd6c4c9de7a1674cd8d63, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 110.164635
-      objectReference: {fileID: 0}
-    - target: {fileID: 1577309524511332114, guid: 9b0dbf2b5f6cd6c4c9de7a1674cd8d63, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 110.164635
-      objectReference: {fileID: 0}
-    - target: {fileID: 1577309524511332114, guid: 9b0dbf2b5f6cd6c4c9de7a1674cd8d63, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 110.164635
-      objectReference: {fileID: 0}
     - target: {fileID: 2529153901473980981, guid: 9b0dbf2b5f6cd6c4c9de7a1674cd8d63, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -1217,10 +1219,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Level
       objectReference: {fileID: 0}
-    - target: {fileID: 8196014250990150547, guid: 9b0dbf2b5f6cd6c4c9de7a1674cd8d63, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.023
-      objectReference: {fileID: 0}
+    - target: {fileID: 4131595995755003892, guid: 9b0dbf2b5f6cd6c4c9de7a1674cd8d63, type: 3}
+      propertyPath: speech
+      value: 
+      objectReference: {fileID: 11400000, guid: 3bf6f44f40ce2a8449514e5a25dc26ee, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9b0dbf2b5f6cd6c4c9de7a1674cd8d63, type: 3}
 --- !u!1001 &5815718019971738298

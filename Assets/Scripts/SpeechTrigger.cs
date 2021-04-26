@@ -7,12 +7,13 @@ public class SpeechTrigger : MonoBehaviour
 {
     public AudioSource source;
     public Speech speech;
+    public Door door;
     public bool OneTime = true;
     private bool activated = false;
 
     void OnTriggerEnter(Collider collider)
     {   
-        if (speech == null) return;
+        if (speech == null || !door.Locked) return;
         if (OneTime && activated) return;
         if (collider.gameObject.tag == "Player"){
             SpeechPlayer.Instance.Play(speech, source);

@@ -50,7 +50,8 @@ public class Menu : MonoBehaviour
             enLanguage.SetIsOnWithoutNotify(false);
             enLanguage.interactable = false;
         }
-        Debug.Log(name);
+        foreach (var loc in FindObjectsOfType<Localization>(true))
+            loc.Awake();
     }
 
     public void StartGame() {

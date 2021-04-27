@@ -26,14 +26,22 @@ public class ItemInteractionTarget : MonoBehaviour
     public void Start() {}
 
     public void TryInsertItem(PickableItem item){
+        bool found = false;
         foreach (var interaction in interactions){
             if (interaction.ItemID == item.ID && interaction.Active){
                 interaction.OnActivated();
+                found = true;
                 break;
             }
         }
-        foreach (var interaction in interactions)
-            if (interaction.Active) return;
-        enabled = false;
+        if (found){
+            foreach (var interaction in interactions)
+                if (interaction.Active) return;
+            enabled = false;
+        } else {
+            Door door = GetComponent<Door>();
+            if (door != null) door.PlayAudio("wrong_item");
+        }
+        
     }
 }

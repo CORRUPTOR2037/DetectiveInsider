@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29d209dd613b1a54a9901ed1c77f2067, type: 3}
   m_Name: 15_kitch-bath
   m_EditorClassIdentifier: 
-  SubtitlesEng: 
-  SubtitlesRus: 
-  SourceID: 
-  Duration: 0
+  SubtitlesEng: They think they can do anything they want? I'll make them pay! I'll
+    do education myself!
+  SubtitlesRus: "\u041E\u043D\u0438 \u0434\u0443\u043C\u0430\u044E\u0442, \u0447\u0442\u043E
+    \u043C\u043E\u0433\u0443\u0442 \u0442\u0432\u043E\u0440\u0438\u0442\u044C \u0432\u0441\u0451
+    \u0447\u0442\u043E \u0437\u0430\u0445\u043E\u0442\u044F\u0442? \u042F \u0437\u0430\u0441\u0442\u0430\u0432\u043B\u044E
+    \u0438\u0445 \u0437\u0430\u043F\u043B\u0430\u0442\u0438\u0442\u044C! "
+  Duration: 5
   Sound: {fileID: 0}
   Next: {fileID: 0}

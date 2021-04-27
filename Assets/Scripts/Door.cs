@@ -31,6 +31,7 @@ public class Door : MonoBehaviour
         StopAllCoroutines();
         opened = true;
         StartCoroutine(RotateTo(-150));
+        audioSource.Stop();
         PlayAudio("open_door");
     }
 

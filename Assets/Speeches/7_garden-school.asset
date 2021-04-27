@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29d209dd613b1a54a9901ed1c77f2067, type: 3}
   m_Name: 7_garden-school
   m_EditorClassIdentifier: 
-  SubtitlesEng: 
-  SubtitlesRus: 
-  SourceID: 
-  Duration: 0
-  Sound: {fileID: 0}
+  SubtitlesEng: A call to class? Or a fire alarm?
+  SubtitlesRus: "\u0417\u0432\u043E\u043D\u043E\u043A \u043D\u0430 \u0443\u0440\u043E\u043A?
+    \u0418\u043B\u0438 \u043F\u043E\u0436\u0430\u0440\u043D\u0430\u044F \u0441\u0438\u0440\u0435\u043D\u0430?"
+  Duration: 2
+  Sound: {fileID: 8300000, guid: da8009ff6fa2fcb49a11ff3f7432ec22, type: 3}
   Next: {fileID: 0}

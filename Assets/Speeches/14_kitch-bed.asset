@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29d209dd613b1a54a9901ed1c77f2067, type: 3}
   m_Name: 14_kitch-bed
   m_EditorClassIdentifier: 
-  SubtitlesEng: 
-  SubtitlesRus: 
-  SourceID: 
-  Duration: 0
-  Sound: {fileID: 0}
+  SubtitlesEng: That's what they deserve. A nice cut.
+  SubtitlesRus: "\u0412\u043E\u0442, \u0447\u0442\u043E \u043E\u043D\u0438 \u0437\u0430\u0441\u043B\u0443\u0436\u0438\u043B\u0438.
+    \u0425\u043E\u0440\u043E\u0448\u0438\u0439 \u043F\u043E\u0440\u0435\u0437."
+  Duration: 3
+  Sound: {fileID: 8300000, guid: b38eaf6d52ed8b1488bd0e4e7ec2067f, type: 3}
   Next: {fileID: 0}
